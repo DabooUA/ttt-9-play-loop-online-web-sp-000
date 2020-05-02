@@ -36,9 +36,9 @@ def turn(board)
 end
 
 def play(board)
-    valid_move? = 0
-    until valid_move? == 9
-    valid_move? += 1
+    display_board(board) = 0
+    until display_board(board) == 9
+    display_board(board) += 1
     return turn
   end
 end
