@@ -38,6 +38,7 @@ end
 def play(board)
     board = 0
     until board == 9
+      puts turn
     board += 1
 
   end
