@@ -36,11 +36,12 @@ def turn(board)
 end
 
 def play(board)
-    turn = 9
-    board = 0
-    until turn == board
-      puts turn
-    board += 1
+    counter = 0
+    until counter == 9
+      puts "Enter 1-9"
+      display_board(board)
+      turn(board)
+      counter +=1
 
   end
 end
